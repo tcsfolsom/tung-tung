@@ -1,36 +1,55 @@
 #content {
-    max-width: 50em; 
+    max-width: 50em;
+    margin: auto;
+}
+#things {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+html {
+    background: repeating-linear-gradient(135deg in hsl longer hue, red 0 50%);
+    background-attachment: fixed;
+    animation: hueShift 8s linear infinite;
+    border-radius: 2em;
+    font-family:
+        comic sans ms,
+        Arial,
+        Helvetica,
+        sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+}
+
+@keyframes hueShift {
+    to {
+        background-position: 100% 0;
+    }
+}
+
+blockquote {
+    transition: transform 0.3s;
+    border-radius: 2em;
+    margin-bottom: 1em;
+    max-width: 10em;
+}
+
+blockquote:hover {
+    transform: scale(1.05);
+}
+
+.sup {
+    background-image: url(https://wallpapercave.com/wp/wp7769083.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     border-radius: 2em;
 }
-html{
-   background-color: pink;
-   border-radius: 2em;
-   font-family: comic sans ms, Arial, Helvetica, sans-serif;
-   font-weight: bold;
-   text-align: center;
-   font-size: 2em;
+
+stop {
+    background-color: darkred;
 }
-
-blockquote{
-    transition:transform 0.3s; border-radius: 2em
-}
-
-blockquote:hover{
-    transform:scale(1.1)
-}
- .sup {
-            background-image: url(https://wallpapercave.com/wp/wp7769083.jpg); 
-            background-repeat: no-repeat; 
-            background-size: cover; 
-            
-           
-            background-position: center; 
-            
-       
-            background-attachment: fixed; 
-
-            border-radius: 2em
-        }
-
-
-stop {background-color: darkred;}
