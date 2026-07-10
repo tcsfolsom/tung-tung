@@ -12,3 +12,14 @@ blockquote{
 blockquote:hover{
     transform:scale(1.1)
 }
+ .sup {
+            background-image: url(https://wallpapercave.com/wp/wp7769083.jpg); 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            
+           
+            background-position: center; 
+            
+       
+            background-attachment: fixed; 
+        }
