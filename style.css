@@ -1,12 +1,18 @@
 #content {
-    max-width: 50em;
+    max-width: 50em; 
+    border-radius: 2em;
 }
 html{
    background-color: pink;
+   border-radius: 2em;
+   font-family: comic sans ms, Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   text-align: center;
+   font-size: 2em;
 }
 
 blockquote{
-    transition:transform 0.3s;
+    transition:transform 0.3s; border-radius: 2em
 }
 
 blockquote:hover{
@@ -22,4 +28,9 @@ blockquote:hover{
             
        
             background-attachment: fixed; 
+
+            border-radius: 2em
         }
+
+
+stop {background-color: darkred;}
