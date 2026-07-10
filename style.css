@@ -1,3 +1,14 @@
 #content {
     max-width: 50em;
 }
+html{
+   background-color: pink;
+}
+
+blockquote{
+    transition:transform 0.3s;
+}
+
+blockquote:hover{
+    transform:scale(1.1)
+}
